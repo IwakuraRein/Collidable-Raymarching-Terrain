@@ -2,22 +2,28 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FishManShaderTutorial_TerrianMap
   m_Shader: {fileID: 4800000, guid: 7bcda4f24196d714cb6684928b3612e7, type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
+    m_Ints: []
     m_Floats:
     - _Eps: 1
     - _MaxTerrianH: 500
@@ -25,6 +31,7 @@ Material:
     - _PosScale: 0.9
     m_Colors:
     - _NorVertDist: {r: 0.002, g: 241, b: 1, a: 1}
-    - _Offset: {r: -1020, g: 120, b: 0, a: 0}
+    - _Offset: {r: -7620, g: -3060, b: 0, a: 0}
     - _WidHigh: {r: 61, g: 61, b: 0, a: 0}
     - normalEps: {r: 0.14, g: 241, b: 1, a: 1}
+  m_BuildTextureStacks: []
